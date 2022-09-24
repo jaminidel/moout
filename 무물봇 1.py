@@ -50,5 +50,5 @@ async def on_messange(ctx):
     await ctx.message.author.send ("출석체크가 완료 되었습니다!")
     embedl = discord.Embed(title="출석체크 됨",description=(author_name), color=0xf9ff84)
     await chl.send(embed=embedl)
-acsses_token = os.environ["BOT_TOKEN"]
+acsses_token = os.environ['BOT_TOKEN']
 bot.run(acsses_token)
