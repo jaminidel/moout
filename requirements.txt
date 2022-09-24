@@ -1,4 +1,2 @@
-discord.py==0.16.12
-Button
-asyncio
-discord.ui
+discord.py==2.1.0a4601+g03d7a9a7
+asyncio==3.0.1
